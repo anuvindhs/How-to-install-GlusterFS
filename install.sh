@@ -12,18 +12,6 @@ function update-ubuntu {
 }
 
 
-function get-server-name {
-            echo -e "\e[0m"
-            echo -e "\e[1;37m [+] Enter a Name for this server or this server domain\e[0m"
-            read -p "  >> Server Name:" server_name
-            hostnamectl set-hostname $server_name
-            echo -e "\e[0m"
-            sudo sed -i 's/localhost/$server_name/g' /etc/hosts
-            echo -e "\e[1;37m [+] Updating /etc/hosts \e[0m" 
-            echo -e "  >> /etc/hosts updated  [\e[1;32mOK\e[1;37m]\e[0m"
-
-}
-
 
 function install-glusterfs {
 
@@ -105,3 +93,5 @@ read -n 1 -s
 get-server-name
 update-ubuntu
 install-glusterfs
+debug
+
