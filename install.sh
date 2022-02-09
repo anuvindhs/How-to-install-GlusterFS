@@ -12,6 +12,14 @@ function update-ubuntu {
 }
 
 
+function get-server-name {
+            echo -e "\e[0m"
+            echo -e "\e[1;37m [+] Enter a Name for this server or this server domain\e[0m"
+            read -p "  >> Server Name:" server_name
+            hostnamectl set-hostname $server_name
+            echo -e "\e[0m"
+}
+
 
 function install-glusterfs {
 
@@ -94,4 +102,3 @@ get-server-name
 update-ubuntu
 install-glusterfs
 debug
-
