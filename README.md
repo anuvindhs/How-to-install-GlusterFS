@@ -17,3 +17,25 @@ Read blog on  [dev.to]() or  [iCTPro.co.nz]()
 
 ## Basic Installation
 
+SSH into Server 
+- You can use [puTTY](https://www.putty.org/)
+or For Multi SSH [mRemoteNG](https://mremoteng.org/download)
+  
+</br>
+Get root privilages to run command 
+
+```bash
+sudo su -
+```
+
+```bash 
+wget https://raw.githubusercontent.com/anuvindhs/How-to-install-GlusterFS/main/install.sh
+```
+
+```bash 
+chmod u+x install.sh
+```
+
+```bash 
+./install.sh
+ ```
