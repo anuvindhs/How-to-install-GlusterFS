@@ -3,7 +3,7 @@ Bash script to install Gluster File System on Debian
 
 ## How to Install?
 
-Read blog on  [dev.to]() or  [iCTPro.co.nz]() 
+Read blog on  [dev.to](https://dev.to/aws-builders/gluster-fs-one-click-install-3b40) or  [iCTPro.co.nz](https://ictpro.co.nz/how-to-create-gluster-fs-on-cloud-day4/) 
 
 ## Security groups
 
