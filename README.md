@@ -1,7 +1,7 @@
 # How-to-install-GlusterFS
 Automated script to install Gluster File System on Debian
 
-![cover](https://res.cloudinary.com/practicaldev/image/fetch/s--LN2xX6nW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y5137fcz2xzgjzywlvnb.gif)
+![cover](./cover.gif)
 ## How to Install?
 
 Read blog on  [dev.to](https://dev.to/aws-builders/gluster-fs-one-click-install-3b40) or  [iCTPro.co.nz](https://ictpro.co.nz/how-to-create-gluster-fs-on-cloud-day4/) 
